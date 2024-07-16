@@ -129,3 +129,25 @@
 // }
 
 // console.log(leap(2023));
+
+// Day 4
+
+// for (let i=1; i<=10; i++){
+//     console.log(i);
+// }
+
+// let i=1;
+// while ( i <= 10){
+//     console.log(i);
+// i++
+// }
+
+// for (let i=1; i<=10; i++){
+//     console.log(`${i} * 5 = ${i*5}`)
+// }
+
+for (let i=1; i<=5; i++){
+    for(let j=i+1; j<=5; j++){
+        console.log("*");
+    }
+}

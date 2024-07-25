@@ -146,8 +146,99 @@
 //     console.log(`${i} * 5 = ${i*5}`)
 // }
 
-for (let i=1; i<=5; i++){
-    for(let j=i+1; j<=5; j++){
-        console.log("*");
-    }
-}
+// for (let i=1; i<=5; i++){
+//     for(let j=i+1; j<=5; j++){
+//         console.log("*");
+//     }
+
+// }
+
+// let i=1;
+// let sum = 0;
+
+// while(i<= 10){
+//     sum = sum+i;
+//     i++;
+// }
+// console.log(sum);
+
+// let fact = 0
+// function factorial(n){
+//     for(let i=1; i<=n; i++){
+//        fact  = n * n-i;
+//     }
+//     return fact
+// }
+
+// console.log(factorial(4));
+
+//Day 5
+
+// function oddEven(num){
+//     return num%2 == 0 ? "Even" : "Odd"
+// }
+
+// console.log(oddEven(6))
+
+// function square(num){
+//     return num * num
+// }
+// console.log(square(5))
+
+// const max = function(num1, num2){
+//     return Math.max(num1, num2)
+// } 
+// console.log(max(10,8))
+
+// const concat = function(str1, str2){
+//     return str1.concat(str2)
+// }
+
+// console.log(concat("Hello ", "World"))
+
+// const sum = (num1, num2) => {
+//     return num1+num2
+// }
+
+// console.log(sum(2,3))
+
+// const contain = (str, char) => {
+//     return str.includes(char)
+// }
+
+// console.log(contain("Hello", "i"))
+
+// const product = (num1, num2 = 5) => {
+//     return num1 * num2
+// }
+
+// console.log(product(2,4))
+
+// const greeting = (name, age = 25) => {
+//     return `Hello ${name}, you are ${age} years old!`
+// }
+
+// console.log(greeting("Renu"))
+
+
+
+// const highfun = (fun, num) => {
+//     for(let i=0; i<num; i++){
+//         fun();
+//     }
+// }
+// const greet = () =>{
+//     console.log( "Helloo Everyone")
+// }
+
+// console.log(highfun(greet, 5))
+
+
+// const highfun = (fun1, fun2, value) => {
+//     let firstRes = fun1(value);
+//     return fun2(firstRes);
+// }
+// const square = (x) => x*x;
+// const half = (x) => x/2;
+
+// console.log(highfun(square, half, 5))

@@ -242,3 +242,49 @@
 // const half = (x) => x/2;
 
 // console.log(highfun(square, half, 5))
+
+
+//Day 6 - Arrays
+
+// const arr = [1,2,3,4,5]
+// console.log(arr)
+// console.log(arr[0], arr[4])
+// arr.push(6)
+// console.log(arr)
+// arr.pop()
+// console.log(arr)
+// arr.shift()
+// console.log(arr)
+// arr.unshift(10)
+// console.log(arr)
+
+// const doublearr = arr.map((item) => {
+//     return item * 2
+// }
+// )
+
+// console.log(doublearr)
+
+// const evenNums = arr.filter((item) => {
+//     return item % 2 == 0
+// })
+
+// console.log(evenNums)
+
+// const sumArr = arr.reduce((item, sum) => {
+//     return item+sum
+// })
+
+// console.log(sumArr)
+
+// for(let i=0; i<arr.length; i++){
+//     console.log(arr[i])
+// }
+
+// arr.forEach(item => {
+//     console.log(item)
+// });
+
+// const arr = [[1,2,3],[4,5,6]]
+// console.log(arr)
+// console.log(arr[1][0])
